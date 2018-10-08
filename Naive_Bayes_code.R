@@ -3,7 +3,7 @@ library(SnowballC) #library used for word stemming
 library(wordcloud) #used for word visualisation
 library(e1071)
 
-sms_data=read.csv("F:\\Aegis\\Machine Learning Foundation\\Machine Learning\\Project\\sms_spam.csv", stringsAsFactors = FALSE)
+sms_data=read.csv("F:\\Project\\sms_spam.csv", stringsAsFactors = FALSE)
 
 
 ## Data Visualisation
